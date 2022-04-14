@@ -59,7 +59,7 @@
 									p.prod_no = t.prod_no(+)
 									<if test="searchCondition != null">
 										<if test="searchCondition == 0 and searchKeyword !='' ">
-							 				AND p.prod_no = ${searchKeyword}
+							 				AND p.prod_no = #{searchKeyword}
 										</if>
 										<if test="searchCondition == 1 and searchKeyword !='' ">
 							 				AND p.prod_name LIKE '%${searchKeyword}%'
@@ -79,7 +79,7 @@
 						<if test="searchCondition != null">
 							<where>
 								<if test="searchCondition == 0 and searchKeyword !='' ">
-						 			prod_no = ${searchKeyword}
+						 			prod_no = #{searchKeyword}
 								</if>
 								<if test="searchCondition == 1 and searchKeyword !='' ">
 						 			prod_name LIKE '%${searchKeyword}%'
