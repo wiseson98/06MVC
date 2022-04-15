@@ -50,7 +50,7 @@ public class PurchaseServiceImpl implements PurchaseService {
 	}
 
 	public Map<String, Object> getSaleList(Search search) throws Exception {
-		List<Purchase> list = purchaseDao.getPurchaseList(search);
+		List<Purchase> list = purchaseDao.getSaleList(search);
 		int totalCount = purchaseDao.getTotalCount(search);
 		
 		Map<String, Object> map = new HashMap<String, Object>();

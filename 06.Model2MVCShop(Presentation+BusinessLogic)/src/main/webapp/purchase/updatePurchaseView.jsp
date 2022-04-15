@@ -90,7 +90,7 @@
 		<td width="104" class="ct_write">구매자주소</td>
 		<td bgcolor="D6D6D6" width="1"></td>
 		<td class="ct_write01">
-			<input 	type="text" name="receiverAddr" class="ct_input_g" style="width: 100px; height: 19px" 
+			<input 	type="text" name="dlvyAddr" class="ct_input_g" style="width: 100px; height: 19px" 
 							maxLength="20" value="${ purchase.dlvyAddr }" />
 		</td>
 	</tr>
@@ -101,7 +101,7 @@
 		<td width="104" class="ct_write">구매요청사항</td>
 		<td bgcolor="D6D6D6" width="1"></td>
 		<td class="ct_write01">
-			<input 	type="text" name="receiverRequest" 	class="ct_input_g" style="width: 100px; height: 19px" 
+			<input 	type="text" name="dlvyRequest" 	class="ct_input_g" style="width: 100px; height: 19px" 
 							maxLength="20" value="${ purchase.dlvyRequest }" />
 		</td>
 	</tr>

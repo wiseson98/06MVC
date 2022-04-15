@@ -70,7 +70,7 @@
 			<td></td>
 			<td align="left">${ purchase.buyer.userId }</td>
 			<td></td>
-			<td align="left">${ purchase.oderDate }</td>
+			<td align="left">${ purchase.orderDate }</td>
 			<td></td>
 			<td align="left">
 				<c:if test="${ purchase.tranCode  == '002' }">
