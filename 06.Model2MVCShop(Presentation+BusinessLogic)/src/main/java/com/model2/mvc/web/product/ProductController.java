@@ -55,9 +55,7 @@ public class ProductController {
 		System.out.println("/addProduct.do");
 		
 		productService.addProduct(product);
-		
-		model.addAttribute("product", product);
-		
+				
 		return "forward:/product/addProduct.jsp";
 	}
 	

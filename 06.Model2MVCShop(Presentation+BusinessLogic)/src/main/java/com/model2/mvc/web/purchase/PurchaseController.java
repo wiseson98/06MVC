@@ -79,7 +79,7 @@ public class PurchaseController {
 		
 		ModelAndView modelAndView = new ModelAndView();
 		modelAndView.setViewName("forward:/purchase/receiptView.jsp");
-		modelAndView.addObject("purchase", purchase);
+//		modelAndView.addObject("purchase", purchase);
 		
 		return modelAndView;
 	}
